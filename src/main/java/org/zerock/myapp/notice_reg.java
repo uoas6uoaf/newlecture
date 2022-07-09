@@ -14,6 +14,7 @@ import javax.servlet.http.HttpServletResponse;
 public class notice_reg extends HttpServlet{
 	
 	
+	
 	@Override
 	protected void service(HttpServletRequest req, HttpServletResponse resp) 
 		throws ServletException, IOException {
