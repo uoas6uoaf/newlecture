@@ -10,11 +10,10 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import lombok.Cleanup;
-import lombok.NoArgsConstructor;
 
-@NoArgsConstructor
-@WebServlet("/filter")
-public class notice_reg extends HttpServlet{
+
+@WebServlet("/notice_reg")
+public class filterEx extends HttpServlet{
 	
 	
 	
@@ -24,7 +23,7 @@ public class notice_reg extends HttpServlet{
 		
 		resp.setCharacterEncoding("UTF-8");				//코딩 작성 방식	
 		resp.setContentType("text/html; charset=UTF-8");//전달 방식
-		req.setCharacterEncoding("utf8");
+//		req.setCharacterEncoding("utf8");
 		
 		@Cleanup
 		PrintWriter out = resp.getWriter();
